@@ -1,0 +1,44 @@
+/* personalização da barra de navegação*/
+.active{
+  background-color: #007bff;
+}
+
+.nav-link{
+  color: white!important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #007bff;
+  color: white !important;
+}
+
+footer{
+  height: 60px;
+}
+/* criar class bg-imagem*/
+.bg-imagem{
+  /* unidade de viewport para dar o efeito de responsividade*/
+  height: 48vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-imagem p{
+font-size: 4vw;
+text-shadow: 4px 4px 8px black;
+
+}
+.mt-60{
+  margin-top: 60px;
+}
+#agenda th{
+  font-size: 1.5vw;
+}
+
+#agenda td{
+  height: 100px;
+  width: 14.29%;
+}
+#agenda td.bg-info{
+  color: white;
+}
